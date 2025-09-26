@@ -4,6 +4,7 @@ import Product from "../models/product.model.js";
 import User from "../models/user.model.js";
 
 
+// This is the dashboard controller for get count of data
 export const getDataCountForDashboard = async (req, res) => {
     try {
         const TotalUsers = await User.countDocuments();
