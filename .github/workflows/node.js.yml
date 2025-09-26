@@ -1,8 +1,8 @@
-name: Node.js CI/CD 
+name: Node.js CI/CD-testcode
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 jobs:
   build:
